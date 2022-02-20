@@ -1,18 +1,6 @@
-#title {
-    text-align: center;
-}
-
 #intro {
     text-align: center;
     padding-bottom: 50px;
-}
-
-body {
-    background-color: turquoise;
-}
-form {
-    width: 50%;
-    margin-left: 25%;
 }
 
 p {
@@ -20,51 +8,126 @@ p {
 }
 
 #rate {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     margin: 0, auto;
+
 }
 
 #one {
-    background-color: #e4183e;
+    background-color: #dc4360;
 }
 
 #two {
-    background-color: #e63826;
+    background-color: #de5249;
 }
 
 #three {
-    background-color: #e35200;
+    background-color: #e07b4f;
 }
 
 #four {
-    background-color: #db6900;
+    background-color: #e1a256;
 }
 
 #five {
-    background-color: #ce7e00;
+    background-color: #e3c75c;
 }
 
 #six {
-    background-color: #bd9200;
+    background-color: #dfe562;
 }
 
 #seven {
-    background-color: #a7a400;
+    background-color: #c2e669;
 }
 
 #eight {
-    background-color: #8cb400;
+    background-color: #a7e86f;
 }
 
 #nine {
-    background-color: #67c300;
+    background-color: #8fea75;
 }
 
 #ten {
-    background-color: #1bd11f;
+    background-color: #7ceb7f;
 }
 
 #choice {
     padding-bottom: 20px;
+}
+
+#Step1, #Step2, #Step3, #Step4 {
+    width: 15%;
+    float:left;
+    margin: 1.5%;
+    font-size: 150%;
+    border: white;
+    border-style: solid;
+    border-width: thick;
+}
+
+#Step1 {
+    margin-left: 10%;
+}
+
+#Step4 {
+    margin-right: 10%;
+}
+
+#About {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 0.5%;
+    margin-bottom: 30px;
+    /*float: right;*/
+    background-color: pink;
+    color: white;
+}
+
+#arrow {
+    float: left;
+    margin-top: 5%;
+}
+
+#header {
+    background-color: pink;
+    padding-left: 40%;
+    padding-bottom: 4px;
+}
+
+#icon {
+    float: left;
+}
+
+h1 {
+    color: white;
+}
+
+#register {
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+h2 {
+    color: grey;
+    margin-left: 25%;
+    padding-bottom: 2%;
+}
+
+h3 {
+    color: white;
+    margin-left: 3%;
+}
+
+img {
+    float: right;
+    width: 100%;
+    margin-top: 5%;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten {
+    font-size: 400%;
+    width: 7%;
 }

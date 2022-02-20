@@ -38,20 +38,37 @@ signupForm.addEventListener('submit', (e) => {
   const password = signupForm['signup-password'].value;
 
    // sign up the user & add firestore data
-   auth.createUserWithEmailAndPassword(email, password).then(cred => {
-    return db.collection('users').doc(cred.user.uid).set({
+   auth.createUserWithEmailAndPassword(email, password).then(async cred => {
+    await db.collection('users').doc(cred.user.uid).set({
       bio: signupForm['signup-bio'].value,
       Phone: signupForm['signup-Phone'].value,
       Friend: signupForm['signup-Friend'].value,
       FriendPhone: signupForm['signup-FriendPhone'].value,
       Time: signupForm['signup-Time'].value
     });
-  }).then(() => {
+    return cred;
+  })
+  .then((cred) => fetch('/timeinput', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      uid: cred.user.uid,
+      person: signupForm['signup-bio'].value,
+      time: signupForm['signup-Time'].value,
+    })
+  }))
+  .then(() => {
     // close the signup modal & reset form
     const modal = document.querySelector('#modal-signup');
     M.Modal.getInstance(modal).close();
     signupForm.reset();
-  });
+  })
+  .catch(err => {
+    console.error(err);
+    alert("An erorr has occered, pres f12 to see the console.");
+  })
 });
 
 // logout
