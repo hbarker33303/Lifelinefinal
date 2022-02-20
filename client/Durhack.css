@@ -1,0 +1,70 @@
+#title {
+    text-align: center;
+}
+
+#intro {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+body {
+    background-color: turquoise;
+}
+form {
+    width: 50%;
+    margin-left: 25%;
+}
+
+p {
+    text-align: center;
+}
+
+#rate {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0, auto;
+}
+
+#one {
+    background-color: #e4183e;
+}
+
+#two {
+    background-color: #e63826;
+}
+
+#three {
+    background-color: #e35200;
+}
+
+#four {
+    background-color: #db6900;
+}
+
+#five {
+    background-color: #ce7e00;
+}
+
+#six {
+    background-color: #bd9200;
+}
+
+#seven {
+    background-color: #a7a400;
+}
+
+#eight {
+    background-color: #8cb400;
+}
+
+#nine {
+    background-color: #67c300;
+}
+
+#ten {
+    background-color: #1bd11f;
+}
+
+#choice {
+    padding-bottom: 20px;
+}

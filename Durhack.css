@@ -1,0 +1,133 @@
+#intro {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+p {
+    text-align: center;
+}
+
+#rate {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: 0, auto;
+
+}
+
+#one {
+    background-color: #dc4360;
+}
+
+#two {
+    background-color: #de5249;
+}
+
+#three {
+    background-color: #e07b4f;
+}
+
+#four {
+    background-color: #e1a256;
+}
+
+#five {
+    background-color: #e3c75c;
+}
+
+#six {
+    background-color: #dfe562;
+}
+
+#seven {
+    background-color: #c2e669;
+}
+
+#eight {
+    background-color: #a7e86f;
+}
+
+#nine {
+    background-color: #8fea75;
+}
+
+#ten {
+    background-color: #7ceb7f;
+}
+
+#choice {
+    padding-bottom: 20px;
+}
+
+#Step1, #Step2, #Step3, #Step4 {
+    width: 15%;
+    float:left;
+    margin: 1.5%;
+    font-size: 150%;
+    border: white;
+    border-style: solid;
+    border-width: thick;
+}
+
+#Step1 {
+    margin-left: 10%;
+}
+
+#Step4 {
+    margin-right: 10%;
+}
+
+#About {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 0.5%;
+    margin-bottom: 30px;
+    /*float: right;*/
+    background-color: pink;
+    color: white;
+}
+
+#arrow {
+    float: left;
+    margin-top: 5%;
+}
+
+#header {
+    background-color: pink;
+    padding-left: 40%;
+    padding-bottom: 4px;
+}
+
+#icon {
+    float: left;
+}
+
+h1 {
+    color: white;
+}
+
+#register {
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+h2 {
+    color: grey;
+    margin-left: 25%;
+    padding-bottom: 2%;
+}
+
+h3 {
+    color: white;
+    margin-left: 3%;
+}
+
+img {
+    float: right;
+    width: 100%;
+    margin-top: 5%;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten {
+    font-size: 400%;
+    width: 7%;
+}
